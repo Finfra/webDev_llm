@@ -1,6 +1,6 @@
 # webDev_llm
 
-WebDev With LLM - 웹 개발과 LLM을 결합한 학습 코스
+WebDev With LLM - 웹 개발과 LLM을 결합한 학습 코스.
 
 ## 개요
 
