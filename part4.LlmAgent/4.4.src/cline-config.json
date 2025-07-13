@@ -1,0 +1,28 @@
+{
+  "cline.apiProvider": "anthropic",
+  "cline.anthropicApiKey": "",
+  "cline.model": "claude-3-sonnet-20240229",
+  "cline.maxTokens": 8192,
+  "cline.temperature": 0.7,
+  "cline.autoApprove": false,
+  "cline.showWelcome": true,
+  "cline.theme": "dark",
+  "cline.enableMcp": true,
+  "cline.mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/nowage/df"
+      ]
+    }
+  },
+  "cline.customInstructions": "당신은 친절하고 도움이 되는 프로그래밍 어시스턴트입니다. 코드를 작성할 때는 주석을 포함하고, 모범 사례를 따르며, 보안을 고려해주세요. 한국어로 설명해주세요.",
+  "cline.preferredLanguage": "Korean",
+  "cline.workspaceSettings": {
+    "autoSave": true,
+    "formatOnSave": true,
+    "lintOnSave": true
+  }
+}

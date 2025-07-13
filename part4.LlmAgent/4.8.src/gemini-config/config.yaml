@@ -1,0 +1,21 @@
+ignore_patterns:
+  - "node_modules/**"
+  - "*.log"
+  - ".env*"
+  - "coverage/**"
+  - "dist/**"
+  - "*.sqlite"
+  - ".git/**"
+
+context_files:
+  - "package.json"
+  - "scripts/prd.txt"
+  - "tasks.md"
+  - "rules.md"
+  - "GEMINI.md"
+
+code_preferences:
+  language: "javascript"
+  style: "modern_es6"
+  async_pattern: "async_await"
+  testing_framework: "jest"

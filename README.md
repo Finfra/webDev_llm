@@ -61,11 +61,12 @@ WebDev With LLM - 웹 개발과 LLM을 결합한 학습 코스.
 
 ### Part 4. LLM Agent
 
-* LLM 기반 개발 도구와 에이전트 개념 학습
-* 다양한 LLM 기반 개발 환경 및 도구 활용
-* 로컬 환경에서 LLM 모델 구동 및 테스트
-* 개발 생산성 향상을 위한 AI 도구 활용법
-* GitHub Copilot, Cursor, LM Studio 등 최신 도구 활용
+* LLM 기반 개발 도구와 에이전트 개념 이해
+* 로컬 LLM 환경 구축 및 최적화 방법
+* AI 통합 IDE와 CLI 도구 실무 활용
+* 지식 관리 시스템과 프로젝트 자동화
+* 개발 환경 컨테이너화 및 워크플로우 통합
+* 실습: 통합 LLM Agent 개발 환경 구축
 
 * [4.1. MCP 개요 및 실습](./part4.LlmAgent/4.1.MCP_Overview_and_Practice.md)
 * [4.2. Cursor 실습](./part4.LlmAgent/4.2.Cursor_Practice.md)
@@ -81,12 +82,13 @@ WebDev With LLM - 웹 개발과 LLM을 결합한 학습 코스.
 ## 파일 구조
 
 * 각 장마다 .md 파일로 이론 내용 제공
-* 실습용 코드는 각 챕터별 src 폴더에 저장 (예: 2.2.src, 2.6.src 등)
+* 실습용 코드는 각 챕터별 src 폴더에 저장 (예: 2.2.src, 4.1.src 등)
 * 실습 코드 파일 명명 규칙:
   - 챕터.하위번호 형식으로 명명: 2.4.6.js, 2.5.1.js 등
   - 파일 확장자로 언어/형식 구분 (.js, .html, .css, .bash, .json 등)
-  - 예: 2.4.src/2.4.6.js, 2.6.src/2.6.1.js, 2.7.src/2.7.1.json 등
+  - 예: 2.4.src/2.4.6.js, 2.6.src/2.6.1.js, 4.1.src/mcp-config.json 등
 * 예제 코드는 번호 순서대로 진행하도록 구성
+* Part 4는 LLM Agent 도구별 실습 환경 및 예제 코드 포함
 
 ## 학습 방법
 
@@ -100,18 +102,22 @@ WebDev With LLM - 웹 개발과 LLM을 결합한 학습 코스.
 
 * **프론트엔드**: HTML, CSS, JavaScript
 * **백엔드**: Node.js, Express.js
-* **AI/LLM**: OpenAI ChatGPT API, OpenAI Assistants API
+* **AI/LLM**: OpenAI ChatGPT API, OpenAI Assistants API, Anthropic Claude API
 * **개발 도구**: 
-  - **AI 코딩 도구**: GitHub Copilot, Cursor, Cline
-  - **로컬 LLM**: LM Studio, Ollama
-  - **생산성 도구**: Obsidian, VS Code, Taskmaster.ai
+  - **AI 통합 IDE**: Cursor, Cline, GitHub Copilot
+  - **로컬 LLM**: LM Studio, Ollama, llama.cpp
+  - **CLI LLM 도구**: ClaudeCode, GeminiCli
+  - **지식 관리**: Obsidian, MCP(Model Context Protocol)
+  - **프로젝트 관리**: Taskmaster.ai, PRD/Tasks/Rules 체계
   - **버전 관리**: Git, GitHub
-  - **컨테이너화**: Docker
+  - **컨테이너화**: Docker, 개발 환경 최적화
 
 ## 학습 효과
 
 * 최신 AI 기술과 웹 개발 역량 동시 향상
 * 실제 프로젝트 개발을 통한 실무 경험 획득
 * AI 도구를 활용한 개발 생산성 극대화 방법 습득
+* LLM Agent 기반 자동화 워크플로우 구축 능력
+* 로컬 LLM 환경 구축 및 최적화 전문성
 * LLM 기반 서비스 아키텍처 설계 및 구현 능력 배양
 * 향후 AI 기술 발전에 대응할 수 있는 기초 역량 확보

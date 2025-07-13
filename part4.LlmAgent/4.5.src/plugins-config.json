@@ -1,0 +1,287 @@
+{
+  "core_plugins": {
+    "daily-notes": {
+      "enabled": true,
+      "settings": {
+        "format": "YYYY-MM-DD",
+        "folder": "05-Daily-Notes",
+        "template": "00-Templates/daily-note-template.md"
+      }
+    },
+    "templates": {
+      "enabled": true,
+      "settings": {
+        "folder": "00-Templates"
+      }
+    },
+    "graph": {
+      "enabled": true,
+      "settings": {
+        "showTags": true,
+        "showAttachments": false,
+        "hideUnresolved": false
+      }
+    },
+    "backlinks": {
+      "enabled": true,
+      "settings": {
+        "backlinkInDocument": true
+      }
+    },
+    "tag-pane": {
+      "enabled": true
+    },
+    "file-recovery": {
+      "enabled": true,
+      "settings": {
+        "interval": 5,
+        "historyLimit": 10
+      }
+    }
+  },
+  "community_plugins": {
+    "templater-obsidian": {
+      "name": "Templater",
+      "description": "고급 템플릿 기능",
+      "priority": "essential",
+      "settings": {
+        "trigger_on_file_creation": true,
+        "template_folder": "00-Templates",
+        "user_scripts_folder": "00-Templates/scripts"
+      }
+    },
+    "dataview": {
+      "name": "Dataview",
+      "description": "데이터 쿼리 및 뷰",
+      "priority": "essential",
+      "settings": {
+        "enableDataviewJs": true,
+        "enableInlineDataviewJs": true,
+        "prettyRenderInlineFields": true
+      }
+    },
+    "calendar": {
+      "name": "Calendar",
+      "description": "달력 기반 일일 노트",
+      "priority": "high",
+      "settings": {
+        "showWeeklyNote": true,
+        "weeklyNoteFormat": "YYYY-[W]ww",
+        "weeklyNoteTemplate": "00-Templates/weekly-note-template.md"
+      }
+    },
+    "table-editor-obsidian": {
+      "name": "Advanced Tables",
+      "description": "테이블 편집 개선",
+      "priority": "high",
+      "settings": {
+        "formatType": "normal",
+        "showRibbonIcon": true
+      }
+    },
+    "obsidian-kanban": {
+      "name": "Kanban",
+      "description": "칸반 보드 생성",
+      "priority": "medium",
+      "settings": {
+        "defaultTemplate": "00-Templates/kanban-template.md"
+      }
+    },
+    "obsidian-git": {
+      "name": "Obsidian Git",
+      "description": "Git 버전 관리",
+      "priority": "medium",
+      "settings": {
+        "autoSaveInterval": 10,
+        "autoPushInterval": 30,
+        "commitMessage": "vault backup: {{date}}"
+      }
+    },
+    "text-generator": {
+      "name": "Text Generator",
+      "description": "GPT 모델 연동",
+      "priority": "medium",
+      "settings": {
+        "api_provider": "openai",
+        "max_tokens": 1000,
+        "temperature": 0.7,
+        "model": "gpt-3.5-turbo"
+      }
+    },
+    "smart-connections": {
+      "name": "Smart Connections",
+      "description": "AI 기반 노트 연결",
+      "priority": "medium",
+      "settings": {
+        "smart_connections_view_language": "ko",
+        "smart_connections_embed_model": "text-embedding-ada-002"
+      }
+    },
+    "copy-block-link": {
+      "name": "Copy Block Link",
+      "description": "블록 링크 복사",
+      "priority": "low"
+    },
+    "highlightr-plugin": {
+      "name": "Highlightr",
+      "description": "구문 하이라이팅 강화",
+      "priority": "low",
+      "settings": {
+        "supportedLanguages": ["javascript", "python", "bash", "css", "html", "json", "markdown"]
+      }
+    },
+    "file-tree-alternative": {
+      "name": "File Tree Alternative Plugin",
+      "description": "파일 트리 개선",
+      "priority": "low",
+      "settings": {
+        "showRootFolder": true,
+        "sortOrder": "alphabetical"
+      }
+    },
+    "quick-switcher-plus": {
+      "name": "Quick Switcher++",
+      "description": "빠른 파일 전환 개선",
+      "priority": "medium"
+    },
+    "obsidian-style-settings": {
+      "name": "Style Settings",
+      "description": "CSS 설정 GUI",
+      "priority": "low"
+    },
+    "obsidian-excalidraw-plugin": {
+      "name": "Excalidraw",
+      "description": "다이어그램 및 스케치",
+      "priority": "medium",
+      "settings": {
+        "folder": "04-References/Diagrams",
+        "template": "00-Templates/excalidraw-template.md"
+      }
+    },
+    "periodic-notes": {
+      "name": "Periodic Notes",
+      "description": "주간/월간 노트",
+      "priority": "medium",
+      "settings": {
+        "weekly": {
+          "enabled": true,
+          "format": "YYYY-[W]ww",
+          "folder": "05-Daily-Notes/Weekly",
+          "template": "00-Templates/weekly-note-template.md"
+        },
+        "monthly": {
+          "enabled": true,
+          "format": "YYYY-MM",
+          "folder": "05-Daily-Notes/Monthly",
+          "template": "00-Templates/monthly-note-template.md"
+        }
+      }
+    },
+    "tag-wrangler": {
+      "name": "Tag Wrangler",
+      "description": "태그 관리 개선",
+      "priority": "low"
+    },
+    "recent-files-obsidian": {
+      "name": "Recent Files",
+      "description": "최근 파일 빠른 접근",
+      "priority": "low"
+    }
+  },
+  "appearance": {
+    "theme": "moonstone",
+    "css_snippets": [
+      {
+        "name": "code-block-styling",
+        "description": "코드 블록 스타일링 개선",
+        "file": "code-blocks.css"
+      },
+      {
+        "name": "tag-styling", 
+        "description": "태그 색상 커스터마이징",
+        "file": "tag-colors.css"
+      },
+      {
+        "name": "table-styling",
+        "description": "테이블 디자인 개선",
+        "file": "table-design.css"
+      }
+    ]
+  },
+  "hotkeys": {
+    "daily-notes": "Ctrl+D",
+    "quick-switcher": "Ctrl+O",
+    "search": "Ctrl+Shift+F",
+    "graph-view": "Ctrl+G",
+    "command-palette": "Ctrl+P",
+    "insert-template": "Ctrl+T",
+    "toggle-edit-view": "Ctrl+E",
+    "new-note": "Ctrl+N",
+    "templater-insert": "Alt+T",
+    "dataview-refresh": "F5"
+  },
+  "workspace_settings": {
+    "newFileLocation": "folder",
+    "newFileFolderPath": "01-Inbox",
+    "showLineNumber": true,
+    "foldHeading": true,
+    "foldIndent": true,
+    "showFrontmatter": false,
+    "promptDelete": true,
+    "alwaysUpdateLinks": true,
+    "useMarkdownLinks": false,
+    "showUnsupportedFiles": false,
+    "attachmentFolderPath": "99-Meta/Attachments"
+  },
+  "developer_settings": {
+    "enableDebugMode": false,
+    "showPluginStats": true,
+    "enableConsoleLog": false
+  },
+  "recommended_workflow": [
+    {
+      "step": 1,
+      "action": "일일 노트 작성",
+      "shortcut": "Ctrl+D",
+      "description": "매일 아침 오늘의 목표와 계획 작성"
+    },
+    {
+      "step": 2,
+      "action": "프로젝트 문서 업데이트",
+      "shortcut": "Ctrl+O → 프로젝트명",
+      "description": "진행 중인 프로젝트 상태 업데이트"
+    },
+    {
+      "step": 3,
+      "action": "학습 내용 정리",
+      "shortcut": "Ctrl+T → 학습 템플릿",
+      "description": "새로 배운 내용을 구조화하여 정리"
+    },
+    {
+      "step": 4,
+      "action": "코드 스니펫 저장",
+      "shortcut": "Ctrl+T → 코드 템플릿",
+      "description": "유용한 코드는 즉시 스니펫으로 저장"
+    },
+    {
+      "step": 5,
+      "action": "연결 관계 확인",
+      "shortcut": "Ctrl+G",
+      "description": "그래프 뷰로 지식 연결 상태 확인"
+    }
+  ],
+  "maintenance": {
+    "weekly_tasks": [
+      "태그 정리 및 통합",
+      "사용하지 않는 노트 아카이브",
+      "백링크 관계 정리",
+      "템플릿 업데이트"
+    ],
+    "monthly_tasks": [
+      "플러그인 업데이트",
+      "설정 백업",
+      "성능 최적화 점검",
+      "워크플로우 개선 검토"
+    ]
+  }
+}
