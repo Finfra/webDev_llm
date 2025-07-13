@@ -73,8 +73,10 @@ WebDev With LLM - 웹 개발과 LLM을 결합한 학습 코스.
 * [4.4. Cline 실습](./part4.LlmAgent/4.4.Cline_Practice.md)
 * [4.5. Obsidian의 활용](./part4.LlmAgent/4.5.Why_Obsidian.md)
 * [4.6. LLM을 활용한 Docker 쉽게 사용하기](./part4.LlmAgent/4.6.Docker_easy_with_LLM.md)
-* [4.7. Taskmaster.ai 활용](./part4.LlmAgent/4.7.taskmaster.ai.md)
-* [4.8. 기타 도구 및 리소스](./part4.LlmAgent/4.8.Etc.md)
+* [4.7. ClaudeCode와 GeminiCli](./part4.LlmAgent/4.7.ClaudeCode_and_GeminiCli.md)
+* [4.8. PRD, Tasks, Rules](./part4.LlmAgent/4.8.prd_tasks_rules.md)
+* [4.9. Taskmaster.ai 활용](./part4.LlmAgent/4.9.taskmaster.ai.md)
+* [4.10. 기타 도구 및 리소스](./part4.LlmAgent/4.10.Etc.md)
 
 ## 파일 구조
 
@@ -113,5 +115,3 @@ WebDev With LLM - 웹 개발과 LLM을 결합한 학습 코스.
 * AI 도구를 활용한 개발 생산성 극대화 방법 습득
 * LLM 기반 서비스 아키텍처 설계 및 구현 능력 배양
 * 향후 AI 기술 발전에 대응할 수 있는 기초 역량 확보
-
-이 코스를 통해 AI와 웹 개발을 통합적으로 학습하고, 현대적인 AI 기반 웹 서비스를 직접 구현해볼 수 있습니다.
