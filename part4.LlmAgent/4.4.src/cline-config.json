@@ -1,20 +1,15 @@
 {
-  "cline.apiProvider": "anthropic",
+  "cline.apiProvider": "openai",
   "cline.anthropicApiKey": "",
-  "cline.model": "claude-3-sonnet-20240229",
-  "cline.maxTokens": 8192,
-  "cline.temperature": 0.7,
-  "cline.autoApprove": false,
-  "cline.showWelcome": true,
-  "cline.theme": "dark",
+  "cline.model": "gpt-4.1-mini",
   "cline.enableMcp": true,
   "cline.mcpServers": {
-    "filesystem": {
-      "command": "npx",
+    "sequential-thinking": {
+      "command": "/opt/homebrew/bin/npx",
       "args": [
         "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "/Users/nowage/df"
+        "@modelcontextprotocol/server-sequential-thinking",
+        "start"
       ]
     }
   },
